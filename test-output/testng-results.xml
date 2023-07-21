@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T11:13:47 IST" name="PetSuite" finished-at="2023-07-21T11:13:56 IST" duration-ms="8846">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T11:13:47 IST" name="PetTest" finished-at="2023-07-21T11:13:56 IST" duration-ms="8846">
+      <class name="com.testCases.petStoreUserTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:48 IST" name="setupData" finished-at="2023-07-21T11:13:48 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="post_U()[pri:0, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:48 IST" name="post_U" finished-at="2023-07-21T11:13:52 IST" duration-ms="4445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_U -->
+        <test-method signature="get_u()[pri:1, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:52 IST" name="get_u" finished-at="2023-07-21T11:13:54 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_u -->
+        <test-method signature="update_u()[pri:2, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:54 IST" name="update_u" finished-at="2023-07-21T11:13:55 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_u -->
+        <test-method signature="delete_U()[pri:3, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:55 IST" name="delete_U" finished-at="2023-07-21T11:13:56 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_U -->
+      </class> <!-- com.testCases.petStoreUserTest -->
+    </test> <!-- PetTest -->
+  </suite> <!-- PetSuite -->
+</testng-results>
