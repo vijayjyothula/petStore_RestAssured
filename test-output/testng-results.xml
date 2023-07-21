@@ -1,33 +1,505 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-21T11:13:47 IST" name="PetSuite" finished-at="2023-07-21T11:13:56 IST" duration-ms="8846">
+  <suite started-at="2023-07-21T18:09:52 IST" name="PetSuite" finished-at="2023-07-21T18:10:13 IST" duration-ms="21352">
     <groups>
     </groups>
-    <test started-at="2023-07-21T11:13:47 IST" name="PetTest" finished-at="2023-07-21T11:13:56 IST" duration-ms="8846">
-      <class name="com.testCases.petStoreUserTest">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:48 IST" name="setupData" finished-at="2023-07-21T11:13:48 IST" duration-ms="348" status="PASS">
+    <test started-at="2023-07-21T18:09:52 IST" name="PetTest" finished-at="2023-07-21T18:10:13 IST" duration-ms="21352">
+      <class name="com.testCases.petStoreUserTest2">
+        <test-method signature="post_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:09:53 IST" name="post_User" data-provider="pet_User" finished-at="2023-07-21T18:09:58 IST" duration-ms="4530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupData -->
-        <test-method signature="post_U()[pri:0, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:48 IST" name="post_U" finished-at="2023-07-21T11:13:52 IST" duration-ms="4445" status="PASS">
+        </test-method> <!-- post_User -->
+        <test-method signature="post_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:09:58 IST" name="post_User" data-provider="pet_User" finished-at="2023-07-21T18:09:59 IST" duration-ms="1198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1002.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[b@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1235.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12346.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- post_U -->
-        <test-method signature="get_u()[pri:1, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:52 IST" name="get_u" finished-at="2023-07-21T11:13:54 IST" duration-ms="1196" status="PASS">
+        </test-method> <!-- post_User -->
+        <test-method signature="post_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:09:59 IST" name="post_User" data-provider="pet_User" finished-at="2023-07-21T18:10:00 IST" duration-ms="1163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1003.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1236.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12347.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_u -->
-        <test-method signature="update_u()[pri:2, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:54 IST" name="update_u" finished-at="2023-07-21T11:13:55 IST" duration-ms="1107" status="PASS">
+        </test-method> <!-- post_User -->
+        <test-method signature="get_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:00 IST" name="get_User" data-provider="pet_User" finished-at="2023-07-21T18:10:02 IST" duration-ms="1167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- update_u -->
-        <test-method signature="delete_U()[pri:3, instance:com.testCases.petStoreUserTest@4e5ed836]" started-at="2023-07-21T11:13:55 IST" name="delete_U" finished-at="2023-07-21T11:13:56 IST" duration-ms="1123" status="PASS">
+        </test-method> <!-- get_User -->
+        <test-method signature="get_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:02 IST" name="get_User" data-provider="pet_User" finished-at="2023-07-21T18:10:03 IST" duration-ms="1120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1002.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[b@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1235.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12346.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete_U -->
-      </class> <!-- com.testCases.petStoreUserTest -->
+        </test-method> <!-- get_User -->
+        <test-method signature="get_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:03 IST" name="get_User" data-provider="pet_User" finished-at="2023-07-21T18:10:04 IST" duration-ms="1147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1003.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1236.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12347.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_User -->
+        <test-method signature="update_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:04 IST" name="update_User" data-provider="pet_User" finished-at="2023-07-21T18:10:05 IST" duration-ms="1284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_User -->
+        <test-method signature="update_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:05 IST" name="update_User" data-provider="pet_User" finished-at="2023-07-21T18:10:06 IST" duration-ms="1169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1002.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[b@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1235.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12346.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_User -->
+        <test-method signature="update_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:06 IST" name="update_User" data-provider="pet_User" finished-at="2023-07-21T18:10:08 IST" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1003.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1236.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12347.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_User -->
+        <test-method signature="delete_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:08 IST" name="delete_User" data-provider="pet_User" finished-at="2023-07-21T18:10:09 IST" duration-ms="1199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1001.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_User -->
+        <test-method signature="delete_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:09 IST" name="delete_User" data-provider="pet_User" finished-at="2023-07-21T18:10:12 IST" duration-ms="2774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1002.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[b@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1235.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12346.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_User -->
+        <test-method signature="delete_User(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.testCases.petStoreUserTest2@43dac38f]" started-at="2023-07-21T18:10:12 IST" name="delete_User" data-provider="pet_User" finished-at="2023-07-21T18:10:13 IST" duration-ms="1235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1003.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaccob2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[David2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[c@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1236.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12347.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_User -->
+      </class> <!-- com.testCases.petStoreUserTest2 -->
     </test> <!-- PetTest -->
   </suite> <!-- PetSuite -->
 </testng-results>

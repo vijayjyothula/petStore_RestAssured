@@ -6,7 +6,7 @@
 	</listeners>
   <test thread-count="5" name="PetTest">
 	  <classes>
-		  <class name="com.testCases.petStoreUserTest"></class>
+		  <class name="com.testCases.petStoreUserTest2"></class>
 	  </classes>
   </test> <!-- PetTest -->
 </suite> <!-- PetSuite -->
